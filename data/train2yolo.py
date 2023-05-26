@@ -128,7 +128,7 @@ if __name__ == '__main__':
         exit(1)
 
     aa = WiderFaceDetection(os.path.join(original_path, 'label.txt'))
-
+    
     for i in range(len(aa.imgs_path)):
         print(i, aa.imgs_path[i])
         img = cv2.imread(aa.imgs_path[i])

@@ -62,6 +62,7 @@ if __name__ == '__main__':
 
     root_path = sys.argv[1]
     if not os.path.isfile(os.path.join(root_path, 'val', 'label.txt')):
+        print(os.path.join(root_path, 'val', 'label.txt'))
         print('Missing label.txt file.')
         exit(1)
 
