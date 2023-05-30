@@ -5,17 +5,6 @@ Put path to input/output folders. Input folder contains dataset with labels,path
 input_dir = "/home/yeldar/Documents/yolov5-face/config/"
 output_dir = "/home/yeldar/Documents/yolov5-face/output/"
 ```
-<!-- 
-country = 'kg'
-doc_version = '1'
-doc_side = 'front' -->
-
-batch_size = 0
-
-output_shape_h_min = 300
-output_shape_h_max = 822
-output_shape_h_coef = 1.5
-
 
 ## Data preparation
 
