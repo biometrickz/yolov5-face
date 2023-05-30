@@ -1,9 +1,10 @@
 ## Configure .yaml file 
 Put path to input/output folders. Input folder contains dataset with labels,path to pretrained models, weights
 
+```shell
 input_dir = "/home/yeldar/Documents/yolov5-face/config/"
 output_dir = "/home/yeldar/Documents/yolov5-face/output/"
-
+```
 <!-- 
 country = 'kg'
 doc_version = '1'
