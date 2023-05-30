@@ -14,8 +14,8 @@ output_dir = "/home/yeldar/Documents/yolov5-face/output/"
 
 ```shell
 cd data
-python3 train.py /path/to/dataset/train 
-python3 val2yolo.py  /path/to/dataset/val 
+python3 prepare_train.py /path/to/dataset/train 
+python3 prepare_val.py  /path/to/dataset/val 
 ```
 
 ```shell
